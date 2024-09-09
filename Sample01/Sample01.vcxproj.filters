@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers &amp; Executables">
+      <UniqueIdentifier>{16a17f01-35b9-416e-83ef-6283ecbd3c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers &amp; Executables\Application">
+      <UniqueIdentifier>{4480c547-c652-4a41-8d99-83a155ba8d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers &amp; Executables\Die">
+      <UniqueIdentifier>{e7e6d6d7-03f2-40e6-a1cc-f9b8924856c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers &amp; Executables\Player">
+      <UniqueIdentifier>{d83bf9bb-aa89-49c9-b722-07fa5b121608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers &amp; Executables\Score">
+      <UniqueIdentifier>{4312a9b7-0106-440c-848c-0817eb5eec01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Driver">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainDriver.cpp">
+      <Filter>Main Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Die.cpp">
+      <Filter>Headers &amp; Executables\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Headers &amp; Executables\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Headers &amp; Executables\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Headers &amp; Executables\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Die.h">
+      <Filter>Headers &amp; Executables\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers &amp; Executables\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Headers &amp; Executables\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Headers &amp; Executables\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
