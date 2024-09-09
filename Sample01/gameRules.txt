@@ -1,15 +1,3 @@
-************************************************************
-               My Details:
-Name: Mehrnaz Zarkalam
-ID: 34677151
-Lab:
-Trimester: 2
-Teacher: Mehran Vahid
-************************************************************
-************************************************************
-               Rules for Playing ???? Game
-************************************************************
-ChatGPT Link:https://chatgpt.com/share/21fecf36-12f7-49f0-8f0b-bfcd4b66785f
 RULES + How to Play the game:
 
 Objective:
